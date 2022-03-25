@@ -53,7 +53,7 @@ ZSH_THEME_VIRTUALENV_PREFIX=$ZSH_THEME_VIRTUAL_ENV_PROMPT_PREFIX
 ZSH_THEME_VIRTUALENV_SUFFIX=$ZSH_THEME_VIRTUAL_ENV_PROMPT_SUFFIX
 # =========================
 
-PROMPT="╭─(${username})─[${dir}] ${g_r_v_preffix} ${venv_prompt}${rvm_prompt}${git_prompt} %B${status_code}%b
+PROMPT="╭─(${username})─[${dir}] ${hr_preffix} ${venv_prompt}${rvm_prompt}${git_prompt} %B${status_code}%b
 ╰─%B${cmd_preffix}%b "
 RPROMPT="|%* 🖥️|"
 
